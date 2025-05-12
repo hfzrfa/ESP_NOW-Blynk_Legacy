@@ -31,10 +31,8 @@ This project uses two ESP32s to monitor temperature and humidity using DHT22 sen
 1. **Clone repository**:
    bash
    git clone
-   ```
-   https://github.com/hfzrfa/ESP_NOW-Blynk_Legacy
-   cd ESP_NOW-Blynk_Legacy
-   
+   ```https://github.com/hfzrfa/ESP_NOW-Blynk_Legacy```
+   ``` cd ESP_NOW-Blynk_Legacy ```
 3. **Install the Required Libraries**:
    - Open the Arduino IDE.
    - Go to **Sketch > Include Library > Manage Libraries**.
@@ -54,6 +52,9 @@ This project uses two ESP32s to monitor temperature and humidity using DHT22 sen
    - Replace the Blynk **auth token**, **SSID**, and **Wi-Fi password** in the code.
    - Upload the `ESP32 A.ino` code for the device that displays data on the OLED screen and sends data to Blynk.
    - Upload the `ESP32 B.ino` code for devices that send temperature and distance data using ESP-NOW.
+
+6. **Install APK for Android**:
+   ``` https://drive.google.com/file/d/1nrwVfLhIXAS69Yc0cLEQJbWF3kFcvQ-N/view?usp=sharing ```
 
 ## How to use
 
@@ -76,18 +77,19 @@ If you would like to contribute to this project, please fork this repository and
 
 1. Fork the repository.
 2. Create a new branch:
-   ``bash
-   git checkout -b your-features
-   ```
-3. Commit your changes:
+   
+   ```bash
+    git checkout -b your-features ```
+   
+4. Commit your changes:
    ```bash
    git commit -m “Description of changes”
    ```
-4. Push your branch:
+5. Push your branch:
    ```bash
    git push origin feature-you
    ```
-5. Send a pull request to the main branch.
+6. Send a pull request to the main branch.
 
 ## License
 
