@@ -29,9 +29,11 @@ This project uses two ESP32s to monitor temperature and humidity using DHT22 sen
 ## Installation
 
 1. **Clone repository**:
-   ``bash
+   bash
    git clone
+   ```
    https://github.com/hfzrfa/ESP_NOW-Blynk_Legacy
+  
    cd repository-name
    ```
    cd ESP_NOW-Blynk_Legacy
