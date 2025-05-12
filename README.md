@@ -33,10 +33,8 @@ This project uses two ESP32s to monitor temperature and humidity using DHT22 sen
    git clone
    ```
    https://github.com/hfzrfa/ESP_NOW-Blynk_Legacy
-  
-   cd repository-name
-   ```
    cd ESP_NOW-Blynk_Legacy
+   
 3. **Install the Required Libraries**:
    - Open the Arduino IDE.
    - Go to **Sketch > Include Library > Manage Libraries**.
