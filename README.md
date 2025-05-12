@@ -30,11 +30,12 @@ This project uses two ESP32s to monitor temperature and humidity using DHT22 sen
 
 1. **Clone repository**:
    ``bash
-   git clone https://github.com/hfzrfa/ESP_NOW-Blynk_Legacy
+   git clone
+   https://github.com/hfzrfa/ESP_NOW-Blynk_Legacy
    cd repository-name
    ```
-
-2. **Install the Required Libraries**:
+   cd ESP_NOW-Blynk_Legacy
+3. **Install the Required Libraries**:
    - Open the Arduino IDE.
    - Go to **Sketch > Include Library > Manage Libraries**.
    - Locate and install the following libraries:
@@ -43,13 +44,13 @@ This project uses two ESP32s to monitor temperature and humidity using DHT22 sen
      - `DHT sensor library`
      - `Blynk`
 
-3. **Set Up Devices**:
+4. **Set Up Devices**:
    - Connect the ESP32 to your computer.
    - Install the DHT22 sensor on GPIO pin 14.
    - Attach the HC-SR04 sensor with TRIG_PIN on GPIO pin 13 and ECHO_PIN on GPIO pin 32.
    - Connect the OLED display with I2C to the SDA and SCL pins on the ESP32.
 
-4. **Configure and Upload Code**:
+5. **Configure and Upload Code**:
    - Replace the Blynk **auth token**, **SSID**, and **Wi-Fi password** in the code.
    - Upload the `ESP32 A.ino` code for the device that displays data on the OLED screen and sends data to Blynk.
    - Upload the `ESP32 B.ino` code for devices that send temperature and distance data using ESP-NOW.
