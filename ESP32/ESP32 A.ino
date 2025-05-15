@@ -13,7 +13,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // Blynk configuration
 char auth[] = ""; // Replace with your Blynk auth token
-char blynkServer[] = "192.168.0.107"; // Local Blynk server IP
+char blynkServer[] = "0.0.0.0"; // Local Blynk server IP
 int blynkPort = 8080;
 char ssid[] = ""; // Replace with your WiFi SSID
 char pass[] = ""; // Replace with your WiFi password
