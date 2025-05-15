@@ -13,7 +13,7 @@ long duration;
 int distance;
 
 // Ganti MAC address ini dengan MAC dari ESP penerima
-uint8_t allowedAddress[] = {0xA0, 0xB7, 0x65, 0x37, 0x0D, 0x70}; 
+uint8_t allowedAddress[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00}; 
 
 // Struct yang dikirim ke ESP penerima
 typedef struct struct_message {
