@@ -53,7 +53,7 @@ This project uses two ESP32s to monitor temperature and humidity using DHT22 sen
    - Upload the `ESP32 A.ino` code for the device that displays data on the OLED screen and sends data to Blynk.
    - Upload the `ESP32 B.ino` code for devices that send temperature and distance data using ESP-NOW.
 
-6. **Install APK for Android** in (here)[https://drive.google.com/file/d/1nrwVfLhIXAS69Yc0cLEQJbWF3kFcvQ-N/view?usp=sharing].
+6. **Install APK for Android** in [here](https://drive.google.com/file/d/1nrwVfLhIXAS69Yc0cLEQJbWF3kFcvQ-N/view?usp=sharing).
 
 ## How to use
 
